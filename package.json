@@ -1,0 +1,22 @@
+{
+  "name": "golden-wave",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Remotion recreation of a golden particle wave motion study (Motion Face demo)",
+  "license": "MIT",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render GoldenWave out/golden-wave.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.540",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.10",
+    "typescript": "5.8.2"
+  }
+}
